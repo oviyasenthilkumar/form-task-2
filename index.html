@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		form{
+			padding:10px;
+		}
+		div{
+			padding:10px;
+		}
+		h3{
+			text-align:center;
+		}
+		.inline{
+			
+			margin-left:160px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h3> Novell services Login</h3>
+		<div>
+			<label for="name">Username:</label>
+			<input type="text" id="name">
+		</div>
+		<div>
+			<label for="psw"> password:</label>
+			<input type="password" id="psw">
+		</div>
+		<div>
+			<label for="city"> City of Employment:</label>
+			<input type="text" id="city">
+		</div>
+		<div>
+			<label for="server"> Web server: </label>
+			<select>
+				<option value="choose a server">-choose a server-</option>
+				<option value="Apache tomcat">Apache tomcat</option>
+				<option value="Lighttpd">Lighttpd</option>
+				<option value="lis">lis</option>
+				<option value="Nginx">Nginx</option>
+			</select>
+		</div>
+		<div >
+			<label>Please specify your role:</label>
+		<div class ="inline">
+				<input type="radio" name="Please specify your role:">admin<br>
+				<input type="radio" name="Please specify your role:">Engineer<br>
+				<input type="radio" name="Please specify your role:">Manager<br>
+				<input type="radio" name="Please specify your role:">Guest
+		</div>
+		</div>
+				<label>Single Sign-on to the following:</label>
+		<div class ="inline">
+				<input type="checkbox">Mail<br>
+				<input type="checkbox" >Payroll<br>
+				<input type="checkbox" >Self-service	
+		</div>
+		<div>
+				<input type="button" value="Login">
+				<input type="Reset">
+		</div>		
+	</form>
+</body>
+</html>
